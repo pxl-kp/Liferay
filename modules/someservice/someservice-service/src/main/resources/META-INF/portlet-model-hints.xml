@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+
+<model-hints>
+	<model name="com.msic.test.liferay.service.user.model.user">
+		<field name="uuid" type="String" />
+		<field name="userId" type="long" />
+		<field name="groupId" type="long" />
+		<field name="uId" type="long" />
+		<field name="userName" type="String" />
+		<field name="createDate" type="Date" />
+		<field name="modifiedDate" type="Date" />
+	</model>
+</model-hints>

@@ -1,0 +1,10 @@
+Bundle-Name: someservice-api
+Bundle-SymbolicName: com.msic.test.liferay.service.user.api
+Bundle-Version: 1.0.0
+Export-Package:\
+	com.msic.test.liferay.service.user.exception,\
+	com.msic.test.liferay.service.user.model,\
+	com.msic.test.liferay.service.user.service,\
+	com.msic.test.liferay.service.user.service.persistence
+-check: EXPORTS
+-includeresource: META-INF/service.xml=../someservice-service/service.xml
